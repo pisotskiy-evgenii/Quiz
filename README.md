@@ -1,7 +1,8 @@
 # Quiz
 This is an app that I develop in order to study the Android SDK and the others attendant technologies with it.
+Implemented: SplashActivity, SlideFragments, Login with Facebook and LogOut
 
-##Use
+##Thirty-part libraries
     // SDP - a scalable size unit
     compile 'com.intuit.sdp:sdp-android:1.0.3'
     // Indicators for SlidePagerView

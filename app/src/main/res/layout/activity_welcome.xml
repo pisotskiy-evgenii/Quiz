@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="study.quiz.presentation.view.activity.WelcomeActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/circle_indicator"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_alignTop="@+id/join_now"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_46sdp"
+        app:fillColor="@color/white"
+        app:pageColor="@color/grey"
+        app:radius="@dimen/_4sdp"
+        app:snap="true" />
+
+    <TextView
+        android:id="@+id/text_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="88dp"
+        android:text="@string/quiz"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_70sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/join_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pager"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/join_now"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+    <LinearLayout
+        android:id="@+id/ll_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.4"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:padding="@dimen/_22sdp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/have_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:text="@string/have_login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

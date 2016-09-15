@@ -6,6 +6,7 @@ Implemented: SplashActivity, SlideFragments, Login with Facebook and LogOut
 ![240x400_new_gif_image2](https://cloud.githubusercontent.com/assets/12153363/18530180/f659cbbc-7ad8-11e6-95f9-c8fa63d5f42b.gif)
 
 ##Third-party libraries
+https://github.com/intuit/sdp
     // SDP - a scalable size unit
     compile 'com.intuit.sdp:sdp-android:1.0.3'
     // Indicators for SlidePagerView

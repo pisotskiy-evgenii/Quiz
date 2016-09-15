@@ -6,10 +6,10 @@ Implemented: SplashActivity, SlideFragments, Login with Facebook and LogOut
 ![240x400_new_gif_image2](https://cloud.githubusercontent.com/assets/12153363/18530180/f659cbbc-7ad8-11e6-95f9-c8fa63d5f42b.gif)
 
 ##Third-party libraries
-https://github.com/intuit/sdp - a scalable size unit
-https://github.com/JakeWharton/ViewPagerIndicator - Indicators for SlidePagerView
-https://github.com/facebook/facebook-android-sdk - Facebook Android SDK (only required for Facebook Login)
-https://github.com/hdodenhof/CircleImageView - Usage in nav_header_main, circle around user's photo
+####https://github.com/intuit/sdp - a scalable size unit
+####https://github.com/JakeWharton/ViewPagerIndicator - Indicators for SlidePagerView
+####https://github.com/facebook/facebook-android-sdk - Facebook Android SDK (only required for Facebook Login)
+####https://github.com/hdodenhof/CircleImageView - Usage in nav_header_main, circle around user's photo
     
    
 
